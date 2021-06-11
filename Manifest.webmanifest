@@ -5,16 +5,16 @@
     "scope": "https://arnav-kr.github.io/slcodepreview/",
     "start_url": "https://arnav-kr.github.io/slcodepreview/",
     "orientation": "portrait",
-    "name": "SoloLearn Code Previewer and Downloader",
-    "short_name": "SL Code Previewer",
+    "name": "Robo",
+    "short_name": "Robo",
     "lang": "en",
     "dir": "ltr",
     "categories": [
         "utilities",
         "devtools",
-        "previewer"
+        "robo"
     ],
-    "description": "SoloLearn Code Previewer and downloader is a tool for previewing and downloading the sololearn codes. You just have to Enter The URL of your code.",
+    "description": "Cute Robo very cute.",
     "icons": [
         {
             "src": "./res/images/maskable/icon_192.png",
@@ -90,7 +90,7 @@
         }
     ],
   "share_target": {
-  "action": "./app-target.html",
+  "action": "Robo.html",
   "method": "GET",
   "enctype": "application/x-www-form-urlencoded",
   "params": {
