@@ -1,0 +1,144 @@
+body {
+    
+}
+
+.main{
+    width:170px;
+    height:170px;
+    background-color:#e54;
+    position:relative ;
+    border-radius:140px;
+    top:250px;
+}
+
+.face{
+    width:90px;
+    height:80px;
+    background-color:#dcdcdc;
+    position:relative ;
+    border-radius:12px;
+    top:30px;
+    z-index:100;
+}
+
+.eye1{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    background:white;
+    position:absolute ;
+    left:6%;
+    top:10%;
+    align-items:center;
+    display:flex;
+   
+}
+@keyframes k{
+    10%{height:7px;}
+    20%{height:5px;}
+    30%{height:3px;}
+}
+.eye2{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    background:white;
+    position:absolute ;
+    left:55%;
+    top:10%;
+    align-items:center;
+    display:flex;
+}
+
+.dot1{
+    width:10px;
+    height:10px;
+    background-color:#000;
+    position:relative ;
+    border-radius:10px;
+    left:30%;
+     animation:2s k infinite ;
+}
+
+.dot2{
+    width:10px;
+    height:10px;
+    background-color:#000;
+    position:relative ;
+    border-radius:10px;
+    left:30%;
+    animation:2s k infinite ;
+}
+
+.smile{
+    width:50px;
+    height:3px;
+    background-color:#000;
+    top:72%;
+    position:relative ;
+}
+
+.ear1{
+    width:15px;
+    height:30px;
+    position:absolute ;
+    background-color:orange;
+    left:-17%;
+    top:30%;
+    border-radius:2px;
+}
+
+.ear2{
+    width:15px;
+    height:30px;
+    position:absolute ;
+    background-color:orange;
+    left:100%;
+    top:30%;
+    border-radius:2px;
+}
+
+.head{
+    width:40px;
+    height:15px;
+    background-color:orange;
+    position:relative ;
+    top:-22%;
+}
+
+.neck{
+    width:10px;
+    height:22px;
+    background-color:orange;
+    position:relative ;
+    top:76%;
+}
+
+.chest{
+    width:40px;
+    height:45px;
+    background-color:#dcdcdc;
+    position:relative ;
+    top:63%;
+}
+
+#e{
+    position:relative ;
+    width:180px;
+    height:25px;
+    outline:none;
+    border:1px solid;
+    border-radius:5px;
+    background-color:white;
+    top:350px;
+}
+
+.op-button{
+    position:relative ;
+    top:400px;
+}
+
+::placeholder{
+    color:#000;
+    font-weight:bold;
+}
